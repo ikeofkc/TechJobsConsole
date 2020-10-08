@@ -28,6 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a47d948-1193-47c5-85b9-88599e21327c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602132766548</updated>
       <workItem from="1602132770660" duration="3443000" />
-      <workItem from="1602187860662" duration="3343000" />
+      <workItem from="1602187860662" duration="4041000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Starting on PrintJobs">
       <created>1602199738307</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602199738307</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added loop in print jobs">
+      <created>1602200151218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602200151218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit. Starting on PrintJobs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Starting on PrintJobs" />
+    <MESSAGE value="added loop in print jobs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added loop in print jobs" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1182" height="365" key="GridCell.Tab.0.bottom" timestamp="1602199715412">
