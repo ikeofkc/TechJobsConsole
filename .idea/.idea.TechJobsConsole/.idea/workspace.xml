@@ -41,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,6 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -100,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602132766548</updated>
       <workItem from="1602132770660" duration="3443000" />
-      <workItem from="1602187860662" duration="4041000" />
+      <workItem from="1602187860662" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Starting on PrintJobs">
       <created>1602199738307</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602200151218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added basic print job. Need to fix spacing and add conditional for if not found">
+      <created>1602200688599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602200688599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,25 +148,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit. Starting on PrintJobs" />
     <MESSAGE value="added loop in print jobs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added loop in print jobs" />
+    <MESSAGE value="Added basic print job. Need to fix spacing and add conditional for if not found" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic print job. Need to fix spacing and add conditional for if not found" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1182" height="365" key="GridCell.Tab.0.bottom" timestamp="1602199715412">
+    <state width="1182" height="343" key="GridCell.Tab.0.bottom" timestamp="1602202047861">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="365" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602199715412" />
-    <state width="1182" height="365" key="GridCell.Tab.0.center" timestamp="1602199715410">
+    <state width="1182" height="343" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602202047861" />
+    <state width="1182" height="343" key="GridCell.Tab.0.center" timestamp="1602202047861">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="365" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602199715410" />
-    <state width="1182" height="365" key="GridCell.Tab.0.left" timestamp="1602199715409">
+    <state width="1182" height="343" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602202047861" />
+    <state width="1182" height="343" key="GridCell.Tab.0.left" timestamp="1602202047860">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="365" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602199715409" />
-    <state width="1182" height="365" key="GridCell.Tab.0.right" timestamp="1602199715411">
+    <state width="1182" height="343" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602202047860" />
+    <state width="1182" height="343" key="GridCell.Tab.0.right" timestamp="1602202047861">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="365" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602199715411" />
+    <state width="1182" height="343" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602202047861" />
     <state x="1400" y="364" key="search.everywhere.popup" timestamp="1602187938035">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Xml;
 
 namespace TechJobsConsole
 {
@@ -123,17 +125,27 @@ namespace TechJobsConsole
             {
                 foreach (Dictionary<string, string> job in someJobs)
                 {
-                    Console.WriteLine("*****");
-                    foreach (KeyValuePair<string, string> column in job)
+                    Console.WriteLine("\n|| *********************************************************************** ||");
+                    foreach (KeyValuePair<string, string> result in job)
                     {
-                       Console.WriteLine($"{column.Key}:{column.Value}");
+                        // for fun experiment
+                        int rowLength = result.Key.Length + result.Value.Length + 2;
+                        int totalSpaces = 70;
+                        int extraSpaces = totalSpaces - rowLength;
+                        string filler = "";
+                        for (int i = 0; i < extraSpaces; i++)
+                        {
+                            filler += '_';
+                        }
+                        // Print each row
+                        Console.WriteLine($"|| {result.Key}: {result.Value} {filler} ||");
                     }
-                    Console.WriteLine("*****");
+                    Console.WriteLine("|| *********************************************************************** ||\n");
                 }
             }
             else
             {
-                 
+                 Console.WriteLine($"\n*****\nOh no! There are no results\n*****\n");
             }
         }
     }
