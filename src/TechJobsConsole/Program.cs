@@ -65,7 +65,8 @@ namespace TechJobsConsole
                     // Fetch results
                     if (columnChoice.Equals("all"))
                     {
-                        Console.WriteLine("Search all fields not yet implemented.");
+                        searchResults = JobData.FindValue(searchTerm);
+                        PrintJobs(searchResults);
                     }
                     else
                     {
@@ -145,7 +146,7 @@ namespace TechJobsConsole
             }
             else
             {
-                 Console.WriteLine($"\n*****\nOh no! There are no results\n*****\n");
+                 Console.WriteLine($"\n*****\nOh no! There are no results. Please try again or press Ctrl-C to quit.\n*****\n");
             }
         }
     }

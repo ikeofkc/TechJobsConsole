@@ -29,6 +29,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a47d948-1193-47c5-85b9-88599e21327c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TechJobsConsole/JobData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechJobsConsole/JobData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +44,13 @@
     <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/ike/Projects/LC101/C#/TechJobsConsole/src/TechJobsConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" />
+        <option value="$PROJECT_DIR$/src/TechJobsConsole/JobData.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602132766548</updated>
       <workItem from="1602132770660" duration="3443000" />
-      <workItem from="1602187860662" duration="5692000" />
+      <workItem from="1602187860662" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Starting on PrintJobs">
       <created>1602199738307</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602202122295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="For fun made the results have filler lines that all have an even line at the end">
+      <created>1602202265708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602202265708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,22 +171,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="For fun made the results have filler lines that all have an even line at the end" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1182" height="339" key="GridCell.Tab.0.bottom" timestamp="1602202229079">
+    <state width="2504" height="1161" key="GridCell.Tab.0.bottom" timestamp="1602204749875">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="339" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602202229079" />
-    <state width="1182" height="339" key="GridCell.Tab.0.center" timestamp="1602202229078">
+    <state width="2504" height="1161" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
+    <state width="2504" height="1161" key="GridCell.Tab.0.center" timestamp="1602204749875">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="339" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602202229078" />
-    <state width="1182" height="339" key="GridCell.Tab.0.left" timestamp="1602202229078">
+    <state width="2504" height="1161" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
+    <state width="2504" height="1161" key="GridCell.Tab.0.left" timestamp="1602204749875">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="339" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602202229078" />
-    <state width="1182" height="339" key="GridCell.Tab.0.right" timestamp="1602202229078">
+    <state width="2504" height="1161" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
+    <state width="2504" height="1161" key="GridCell.Tab.0.right" timestamp="1602204749875">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1182" height="339" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602202229078" />
+    <state width="2504" height="1161" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
+    <state x="100" y="128" width="2360" height="1212" key="VCS.FileHistoryDialog" timestamp="1602203015175">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state x="100" y="128" width="2360" height="1212" key="VCS.FileHistoryDialog/0.28.2560.1412@0.28.2560.1412" timestamp="1602203015175" />
+    <state x="901" y="406" width="748" height="663" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602202406229">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state x="901" y="406" width="748" height="663" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.2560.1412@0.28.2560.1412" timestamp="1602202406229" />
     <state x="1400" y="364" key="search.everywhere.popup" timestamp="1602187938035">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
