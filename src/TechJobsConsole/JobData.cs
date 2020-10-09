@@ -50,9 +50,9 @@ namespace TechJobsConsole
                 {
                     if (row.Value.ToLower().Contains((value.ToLower())))
                     {
-                        if (!jobs.Contains(job))
+                        if (!jobs.Contains(job)) //avoids duplicates
                         {
-                        jobs.Add(job);
+                        jobs.Add(job); 
                         }
 
                     }

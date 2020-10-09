@@ -28,9 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a47d948-1193-47c5-85b9-88599e21327c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechJobsConsole/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TechJobsConsole/JobData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechJobsConsole/JobData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechJobsConsole/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602132766548</updated>
       <workItem from="1602132770660" duration="3443000" />
-      <workItem from="1602187860662" duration="8308000" />
+      <workItem from="1602187860662" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Starting on PrintJobs">
       <created>1602199738307</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602202265708</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added check to see if job was already in job List and only add to List if it's not already in thewre to avoid duplicates">
+      <created>1602204969652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602204969652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,25 +173,26 @@
     <MESSAGE value="added loop in print jobs" />
     <MESSAGE value="Added basic print job. Need to fix spacing and add conditional for if not found" />
     <MESSAGE value="For fun made the results have filler lines that all have an even line at the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="For fun made the results have filler lines that all have an even line at the end" />
+    <MESSAGE value="Added check to see if job was already in job List and only add to List if it's not already in thewre to avoid duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added check to see if job was already in job List and only add to List if it's not already in thewre to avoid duplicates" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2504" height="1161" key="GridCell.Tab.0.bottom" timestamp="1602204749875">
+    <state width="1182" height="131" key="GridCell.Tab.0.bottom" timestamp="1602204918245">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2504" height="1161" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
-    <state width="2504" height="1161" key="GridCell.Tab.0.center" timestamp="1602204749875">
+    <state width="1182" height="131" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1602204918245" />
+    <state width="1182" height="131" key="GridCell.Tab.0.center" timestamp="1602204918244">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2504" height="1161" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
-    <state width="2504" height="1161" key="GridCell.Tab.0.left" timestamp="1602204749875">
+    <state width="1182" height="131" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1602204918244" />
+    <state width="1182" height="131" key="GridCell.Tab.0.left" timestamp="1602204918243">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2504" height="1161" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
-    <state width="2504" height="1161" key="GridCell.Tab.0.right" timestamp="1602204749875">
+    <state width="1182" height="131" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1602204918243" />
+    <state width="1182" height="131" key="GridCell.Tab.0.right" timestamp="1602204918244">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2504" height="1161" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602204749875" />
+    <state width="1182" height="131" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1602204918244" />
     <state x="100" y="128" width="2360" height="1212" key="VCS.FileHistoryDialog" timestamp="1602203015175">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
