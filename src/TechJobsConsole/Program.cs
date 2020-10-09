@@ -135,7 +135,7 @@ namespace TechJobsConsole
                         string filler = "";
                         for (int i = 0; i < extraSpaces; i++)
                         {
-                            filler += '_';
+                            filler += ' ';
                         }
                         // Print each row
                         Console.WriteLine($"|| {result.Key}: {result.Value} {filler} ||");
